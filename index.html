@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARC Interview</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href=".assets/favicon.ico">
+</head>
+
+<!--INTERFACE-->
+<cards>
+  <button id="cardButton">
+    <img src="./assets/card_16520295.png" alt="card 16520295" onclick="nim16520295()">
+    <img src="./assets/card_16520462.png" alt="card 16520462" onclick="nim16520462()">
+    <img src="./assets/card_16520102.png" alt="card 16520102" onclick="nim16520102()">
+    <img src="./assets/card_16520050.png" alt="card 16520050" onclick="nim16520050()">
+    <img src="./assets/card_13519002.png" alt="card 13519002" onclick="nim13519002()">
+    <img src="./assets/card_16620367.png" alt="card 16620367" onclick="nim16620367()">
+  </button>
+</cards>
+
+<!-- MODAL -->
+<div id="popupModal" class="modal">
+  <!-- ISI MODAL -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 id="nama-kartu">Farrel Farandieka Fibriyanto</h2>
+    </div>
+    <div class="modal-body">
+      <p>Tanggal interview:<br /> 03-03-2021</p>
+      <p><br /></p>
+      <p id="status-kru">Status: <br /> Cakru</p>
+      <p><br /></p>
+      <p id="catatan-kru">Catatan: <br /> - pembuat website ini</p>
+    </div>
+    <div class="modal-footer">
+      <p id="nim-kartu">16520295</p>
+    </div>
+  </div>
+</div>
+
+<script src="addon.js"></script>
