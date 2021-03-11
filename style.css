@@ -13,6 +13,25 @@ body {
     background-color: rgb(38, 42, 74);
   }
 
+imgbutton {
+  width: 60%;
+  margin: auto;
+  display: block;
+  justify-content: center;
+}
+
+fotobareng {
+  display: flex;
+  justify-content: center;
+}
+
+fotobareng img {
+  width: 30vw;
+}
+fotobareng img:hover{
+  width: 35vw;
+}
+
 cards img{
     position: center;
     width: 30vh;
@@ -113,4 +132,4 @@ button {
     from {opacity: 0} 
     to {opacity: 1}
   }
-  </style>
+</style
